@@ -67,6 +67,10 @@ if(!isset($_SESSION['role']) || $_SESSION['role'] != "admin"){
         <a href="kategori.php" class="btn btn-kategori">📁 Manajemen Kategori</a>
         <a href="laporan.php" class="btn btn-laporan">📊 Cetak Laporan Peminjaman</a>
     </div>
+    <div class="nav-actions" style="margin-top:10px;">
+        <a href="user.php" class="btn" style="background-color:#17a2b8">👤 Manajemen User</a>
+        <a href="petugas.php" class="btn" style="background-color:#6c757d">👥 Manajemen Petugas</a>
+    </div>
 
     <?php 
     if(isset($_GET['pesan'])){

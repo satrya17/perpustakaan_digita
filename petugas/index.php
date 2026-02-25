@@ -94,7 +94,6 @@ if(!isset($_SESSION['role']) || ($_SESSION['role'] != "petugas" && $_SESSION['ro
     <?php endif; ?>
 
     <div style="margin: 20px 0;">
-        <a href="data_pelanggan.php" class="btn btn-pelanggan">👥 Kelola Data Pelanggan</a>
         <a href="peminjaman.php" class="btn" style="background:#007bff;color:#fff;margin-left:8px;">🔁 Manajemen Peminjaman</a>
     </div>
 
