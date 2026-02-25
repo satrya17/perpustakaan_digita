@@ -23,4 +23,6 @@ if($query){
             window.location='index.php';
           </script>";
 }
+
+// tes
 ?>
